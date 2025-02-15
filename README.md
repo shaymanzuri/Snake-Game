@@ -26,7 +26,8 @@ Vite + React – Provides a fast and interactive user interface.
 
 
 
-Features:
+# Features:
+
 
  Difficulty level selection
 
