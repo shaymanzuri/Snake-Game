@@ -1,0 +1,134 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: #056084;
+    box-shadow: 2px 2px 2px 2px #056084;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_left{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_right{
+    width: 30%;
+}
+.nav_right ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav_right ul{
+    width: 100%;
+    list-style: none;
+}
+.nav_right ul li{
+    cursor: pointer;
+}
+.activeTab{
+    background-color: #00b7ff;
+    padding: 2%;
+    border-radius: 3px;
+}
+.main_container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+}
+.game_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.game{
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leaders{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.card,.card1{
+    background-color: white;
+    width: 70%;
+    height: 40%;
+    box-shadow: 2px 4px 2px -1px rgba(235, 233, 233, 0.79);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.card1{
+    height: 50% !important;
+}
+
+.radio_wrapper{
+    width: 60%;
+    height: 20px;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.radio_wrapper label{
+    color: black;
+}
+.datatable{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_datatable{
+    width: 90%;
+}
+.SnakeGame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px solid white;
+  }
+  
+  .game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: red;
+  }
+  
+  canvas {
+    border: 1px solid black;
+  }
