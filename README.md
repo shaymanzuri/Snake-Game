@@ -25,15 +25,20 @@ Vite + React – Provides a fast and interactive user interface.
 (MongoDB)
 
 
-
 # Features:
 
 
  Difficulty level selection
 
  Real-time game updates
+ 
+ Creating a user and saving it in the database + logging in with a username and password.
 
  Score tracking and storage
 
  Responsive and interactive UI
+
+ To run online the link is:
+
+https://snake-game-frontend-spt4.onrender.com/
 
