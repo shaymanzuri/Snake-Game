@@ -1,5 +1,4 @@
 # SnakeGame-Frontend
-# SnakeGame-Frontend
 
 This project is the frontend for a Snake Game, built using React and styled with CSS modules. It utilizes Vite as the build tool and React Router for navigation.
 
