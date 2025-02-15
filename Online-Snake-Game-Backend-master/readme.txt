@@ -1,4 +1,5 @@
-# Snake Game Backend
+# SnakeGame-Backend
+
 
 ## Running the Application
 
