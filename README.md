@@ -24,13 +24,15 @@ Vite + React – Provides a fast and interactive user interface.
 
 (MongoDB)
 
+
+
 Features:
 
-Difficulty level selection
+ Difficulty level selection
 
-Real-time game updates
+ Real-time game updates
 
-Score tracking and storage
+ Score tracking and storage
 
-Responsive and interactive UI
+ Responsive and interactive UI
 
